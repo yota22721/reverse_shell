@@ -3,7 +3,7 @@ run.c - a small skelton program to run shellcode
 */
 
 //bytecode here
-char code[] ="\x31\xc0\xb0\x01\xcd\x80";
+char code[] ="\x31\xc0\x31\xdb\x31\xc9\x31\xd2\x50\x68\x6e\x2f\x73\x68\x68\x2f\x2f\x62\x69\x89\xe3\xb0\x0b\xcd\x80";
 
 int main(int argc,char **argv){
     int (*func)();          //function pointer
